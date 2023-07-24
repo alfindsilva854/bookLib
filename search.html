@@ -9,16 +9,18 @@
     <link rel="stylesheet" href="./book.css">
 </head>
 <body>
-    <h1 class="text-center mt-5">search your book here..!!</h1>
-    <form action="">
-        <div class="container w-50 form-control text-center mt-5" style="background-color: rgba(0, 0, 0, 0.439); border-radius: 70px;">
-            <input type="text" class="p-2 mt-3 w-50" name="" id="bn1" placeholder="find your book"><br><br>
-            <button type="button" class="btn btn-dark" onclick="findBook()">search</button><br><br>
+   <div class="container">
+        <h1 class="text-center mt-5">search your book here..!!</h1>
+        <form action="">
+            <div class="container p-3 text-center mt-5" style="background-color: rgba(0, 0, 0, 0.439); border-radius: 50px;">
+                <input type="text" class="p-2 mt-3 form-control" name="" id="bn1" placeholder="find your book"><br><br>
+                <button type="button" class="btn btn-dark" onclick="findBook()">search</button><br><br>
+            </div>
+        </div><br><br>       
+        <div id="result" class="container w-75 p-5 mt-2 text-center text-white " style="background-color:  rgba(0, 0, 0, 0.439); border-radius: 50px;">
         </div>
-    </div><br><br>       
-    <div id="result" class="container w-75 p-5 mt-2 text-center text-white " style="background-color:  rgba(0, 0, 0, 0.439); border-radius: 70px;">
-    </div>
-    </form>
+        </form>
+   </div>
 </body>
 <script src="./book.js"></script>
 </html>
